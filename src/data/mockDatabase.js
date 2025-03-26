@@ -4,11 +4,11 @@
 export const users = [
   {
     id: 1,
-    username: "john_doe",
-    email: "john@example.com",
+    username: "jai",
+    email: "jai@email.com",
     password: "password123", // In a real app, this would be hashed
-    name: "John Doe",
-    profilePicture: "/images/users/john.jpg",
+    name: "Jai K",
+    profilePicture: "/images/users/jai.jpg",
     portfolio: [
       { propertyId: 1, tokens: 5, purchaseDate: "2023-10-15" },
       { propertyId: 3, tokens: 10, purchaseDate: "2023-11-20" }
@@ -18,11 +18,11 @@ export const users = [
   },
   {
     id: 2,
-    username: "jane_smith",
-    email: "jane@example.com",
+    username: "yash",
+    email: "yash@email.com",
     password: "password123",
-    name: "Jane Smith",
-    profilePicture: "/images/users/jane.jpg",
+    name: "Yash S",
+    profilePicture: "/images/users/yash.jpg",
     portfolio: [
       { propertyId: 2, tokens: 8, purchaseDate: "2023-09-05" },
       { propertyId: 4, tokens: 3, purchaseDate: "2023-12-10" }
@@ -32,11 +32,39 @@ export const users = [
   },
   {
     id: 3,
-    username: "michael_brown",
-    email: "michael@example.com",
+    username: "sameep",
+    email: "sameep@email.com",
     password: "password123",
-    name: "Michael Brown",
-    profilePicture: "/images/users/michael.jpg",
+    name: "Sameep S",
+    profilePicture: "/images/users/sameep.jpg",
+    portfolio: [
+      { propertyId: 1, tokens: 3, purchaseDate: "2023-10-20" },
+      { propertyId: 5, tokens: 7, purchaseDate: "2024-01-15" }
+    ],
+    totalInvestment: 10000,
+    returns: 750
+  },
+  {
+    id: 4,
+    username: "jiigar",
+    email: "jiigar@email.com",
+    password: "password123",
+    name: "Jiigar J",
+    profilePicture: "/images/users/jiigar.jpg",
+    portfolio: [
+      { propertyId: 1, tokens: 3, purchaseDate: "2023-10-20" },
+      { propertyId: 5, tokens: 7, purchaseDate: "2024-01-15" }
+    ],
+    totalInvestment: 10000,
+    returns: 750
+  },
+  {
+    id: 5,
+    username: "aastha",git
+    email: "aastha@email.com",
+    password: "password123",
+    name: "Aastha S",
+    profilePicture: "/images/users/aastha.jpg",
     portfolio: [
       { propertyId: 1, tokens: 3, purchaseDate: "2023-10-20" },
       { propertyId: 5, tokens: 7, purchaseDate: "2024-01-15" }
